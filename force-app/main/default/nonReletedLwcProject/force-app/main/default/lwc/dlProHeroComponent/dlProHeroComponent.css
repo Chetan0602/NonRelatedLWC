@@ -1,0 +1,56 @@
+.background_img {
+    background-image: url({backgroundStyle});
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
+    width: 1440px;
+    height: 177px;
+}
+
+.user_salutation {
+    font-family: "Whitney-Condensed";
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 74px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.company_salutation {
+    font-family: 'Whitney';
+    font-weight: 325;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+}
+
+.company_salutation_condensed {
+    font-family: 'Whitney Condensed';
+    font-weight: 700;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .dl-hero-content {
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+
+a.dl-hero-button {
+    color: #fff;
+}
+
+a.dl-hero-button:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.image_container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 177px;
+}

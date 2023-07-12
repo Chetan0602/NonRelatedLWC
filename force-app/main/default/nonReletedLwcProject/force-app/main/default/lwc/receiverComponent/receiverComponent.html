@@ -1,0 +1,11 @@
+<template>
+    <lightning-card>
+        Receiver Component :- {receivedMessage}
+        <template if:true={child}>
+            <c-receiver-component-2></c-receiver-component-2>
+        </template>
+
+        <lightning-button label="Open Child" onclick={openChildHandle}></lightning-button>
+    </lightning-card>
+
+</template>

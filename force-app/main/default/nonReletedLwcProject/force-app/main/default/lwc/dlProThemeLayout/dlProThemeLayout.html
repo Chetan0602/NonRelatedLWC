@@ -1,0 +1,9 @@
+<template>
+    <template if:true={showGlobalHeader}>
+        <slot name="globalheader"></slot>
+    </template>
+    <slot></slot>
+    <template if:true={showGlobalFooter}>
+        <slot name="globalfooter"></slot>
+    </template>
+</template>

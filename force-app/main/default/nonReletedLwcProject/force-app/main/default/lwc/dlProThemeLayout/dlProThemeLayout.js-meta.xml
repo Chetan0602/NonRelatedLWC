@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Delta Professional Theme Layout</masterLabel>
+    <description>Custom theme layout for Delta Professional community.</description>
+    <targets>
+        <target>lightningCommunity__Default</target>
+        <target>lightningCommunity__Theme_Layout</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Show Global Header" default="true" name="showGlobalHeader" type="Boolean"></property>
+            <property label="Show Global Footer" default="true" name="showGlobalFooter" type="Boolean"></property>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

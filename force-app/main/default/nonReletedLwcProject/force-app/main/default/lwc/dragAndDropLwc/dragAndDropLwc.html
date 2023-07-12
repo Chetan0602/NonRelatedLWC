@@ -1,0 +1,13 @@
+<template>
+    <lightning-card>
+        <div class="container">
+            <template for:each={ElementList} for:item="Elements">
+                <tr key={Elements.Id} style="padding:10px;background-color:#a6a5a3;" class="Items" onchange={Change} draggable="true" ondrop={Drop} ondragstart={DragStart} ondragover={DragOver}>
+                    <th key={Elements}>
+                        {Elements}
+                    </th>
+                </tr>
+            </template>
+        </div>
+    </lightning-card>
+</template>

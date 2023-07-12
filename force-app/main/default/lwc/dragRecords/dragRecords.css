@@ -1,0 +1,11 @@
+:host {
+    –slds-c-accordion-heading-text-color: black;
+    –slds-c-accordion-heading-font-size: 1.2rem
+  }
+
+  .x-accordion-heading .x-accordion-toggle.collapsed {
+background-color: green !important;
+}
+.x-accordion-heading .x-accordion-toggle {
+background-color: green !important;
+}
